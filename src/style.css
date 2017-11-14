@@ -1,0 +1,76 @@
+h1{
+    background: #B9B4B4;
+    color: #666;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginBox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #B9B4B4;
+}
+.loginBox-input{
+    width: 200px;
+    height: 18px;
+    border: 0;
+    border-radius: 2px;
+}
+.loginBox-btn{
+    /* width: 20px; */
+    color: white;
+    background: #666;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 2px 20px;
+    cursor: pointer;
+    outline: none;
+}
+.chatBox{
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.chatBoxContent{
+    width: 750px;
+    background: #B9B4B4;
+    float: left;
+}
+.chatBoxContentMain{
+    height: 300px;
+    overflow: auto;
+    border-right: 5px solid #666;
+    border-bottom: 5px solid #666;
+}
+.chatBoxContentUser{
+    padding-left: 10px;
+    overflow: hidden;
+}
+.dialog{
+    margin: 10px 0;
+}
+.userScanf{
+    display: block;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.submit{
+    float: right;
+    margin: 10px 0;
+    margin-right: 20px;
+    background: #666;
+    padding: 2px 20px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.chatBoxUser{
+    margin-left: 760px;
+}

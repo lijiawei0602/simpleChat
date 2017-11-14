@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>simpleChat</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" href="src/style.css">
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body >
+        <div class="container">
+            <h1>socket.io chat</h1>
+            <div class="loginBox">
+                <label for="username">用户名:&nbsp;</label>
+                <input type="text" name="username" class="loginBox-input">
+                <button id="loginBox-login" class="loginBox-btn">登录</button>
+                <button id="loginBox-exit" class="loginBox-btn" disabled>退出</button>
+            </div>
+            <div class="chatBox">
+                <div class="chatBoxContent">
+                    <div class="chatBoxContentMain"></div>
+                    <div class="chatBoxContentUser">
+                        <div class="dialog">对话</div>
+                        <textarea name="scanf" id="userScanf" class="userScanf" cols="100" rows="10"></textarea>
+                        <button id="submit" class="submit" disabled>发送</button>
+                    </div>
+                </div>
+                <div class="chatBoxUser">
+                    用户列表：
+                </div>
+            </div>
+        </div>
+        <script src="src/main.js"></script>
+    </body>
+</html>
